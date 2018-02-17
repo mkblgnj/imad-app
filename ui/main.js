@@ -17,7 +17,7 @@ button.onclick = function() {
     
     request.open('GET','http://mkblgnj.imad.hasura-app.io/counter',true);
     request.send(null);
-}
+};
 
 var submit = document.getElementById('submit_btn');
 submit.onclick = function () {
